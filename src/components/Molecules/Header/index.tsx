@@ -1,18 +1,19 @@
 import React from 'react';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
+import HeaderProps from './IHeader';
 import * as S from './styles';
 
-function Header() {
+function Header({ month, nextMonth, lastMonth }: HeaderProps) {
   return (
     <S.Container>
-      <div>
-        <BsArrowLeft size={20} />
+      <div className="actionHeader">
+        <BsArrowLeft size={20} onClick={lastMonth} />
       </div>
       <div>
-        <span>Agosto</span>
+        <span className="nameMonth">{month}</span>
       </div>
-      <div>
-        <BsArrowRight size={20} />
+      <div className="actionHeader">
+        <BsArrowRight size={20} onClick={nextMonth} />
       </div>
     </S.Container>
   );
