@@ -13,6 +13,6 @@ export const Container = styled.div`
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    color: #524845;
+    color: #fff;
   }
 `;

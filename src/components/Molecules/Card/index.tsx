@@ -23,12 +23,12 @@ function Card({ days }: CardProps) {
         background: `${
           verifyHoliday(days)
             ? 'linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(116,8,34,0.7175245098039216) 100%)'
-            : '#fff'
+            : '#2c2c2c'
         }`
       }}
     >
       {days.getMonth() !== monthCurrent ? (
-        <span style={{ color: '#C4CDD5' }}>{moment(days).format('DD')}</span>
+        <span style={{ color: '#666869' }}>{moment(days).format('DD')}</span>
       ) : (
         <span>{moment(days).format('DD')}</span>
       )}

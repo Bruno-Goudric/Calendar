@@ -20,7 +20,7 @@ html, body, #root {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: ${colors.white};
+  background: ${colors.darkGray};
   position: relative;
   min-height: 100%;
   font-feature-settings: 'kern';

@@ -16,7 +16,11 @@ export const Container = styled.header`
     font-weight: 400;
     font-size: 36px;
     line-height: 50px;
-    color: #3d3633;
+    color: #fff;
+  }
+
+  > div svg {
+    color: #fff;
   }
 
   .nameMonth {
