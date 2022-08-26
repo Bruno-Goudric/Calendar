@@ -1,5 +1,6 @@
 export const colors = {
-  white: '#fff'
+  white: '#fff',
+  darkGray: '#2c2c2c'
 } as const;
 
 export const font = {

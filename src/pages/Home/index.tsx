@@ -1,11 +1,12 @@
 import React from 'react';
 
+import * as Molecules from 'components/Molecules';
 import * as S from './styles';
 
 function Home() {
   return (
     <S.Container>
-      <h2>Welcome to React!</h2>
+      <Molecules.Header />
     </S.Container>
   );
 }
